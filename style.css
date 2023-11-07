@@ -1,0 +1,47 @@
+#main {
+    border: 5px solid #6dacd5;
+    width:270px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+#numpud {
+    border-spacing: 7px;
+}
+
+    #numpud td {
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        background-color: #00f100;
+        background-image: -webkit-linear-gradient(top,#f6f6f6,#dfdfdf);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+        #numpud td:hover {
+            background-image: -webkit-linear-gradient(top,#dfdfdf,#d1d1d1);
+        }
+
+        #numpud td:active {
+            box-shadow: inset 1px 1px 3px -1px;
+        }
+
+#input {
+    border: 1px solid black;
+    margin: 7px 7px 0px 6px;
+    height: 45px;
+    width: 262px;
+    text-align: right;
+    line-height: 45px;
+    box-shadow: inset 0px 1px 2px -1px;
+    font-size: 25px;
+    padding-right: 5px;
+    font-weight: 500;
+}
+
+#input div {
+    display: inline-block;
+}
